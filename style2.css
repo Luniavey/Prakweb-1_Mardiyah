@@ -1,0 +1,38 @@
+.atas{
+    height: 120px;
+    width: 100%;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.container1{
+     display: flex; 
+}
+
+.kuning {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 20px;
+}
+
+.oren{
+    height: 200px;
+    width: 80%;
+    background-color: orange;
+    margin: 20px;
+
+}
+
+.container2{
+    display: flex; 
+}
+
+.biru{
+    height: 200px;
+    width: 80%;
+    background-color: aqua;
+    margin: 20px;
+
+}

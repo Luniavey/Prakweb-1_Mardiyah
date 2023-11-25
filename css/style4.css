@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: pink;
+    width: 14vw;
+    height: 100vh;
+    position: absolute;   
+}
+
+header, footer{
+    background-color: plum;
+    height: 15vh;
+    text-align: center;
+}
+
+.isi{
+    display: flex;
+}
+
+.isi article{
+    flex: 1;
+}
+
+.isi article{
+    background-color: rgb(222, 255, 156);
+    height: 70vh;
+    width: 14vw;
+
+}
+
+.isi aside{
+    background-color: aqua;
+    width: 14vw;
+    height: 70vh;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+    <label for="gambar">Gambar suami:</label>
+    <select id="gambar" onchange="image()">
+        <option id="img1">suami 1</option>
+        <option id="img2">suami 2</option>
+        <option id="img3">suami 3</option>
+        <option id="img4">suami 4</option>
+        <option id="img5">suami 5</option>
+        <option id="img6">suami 6</option>
+    </select>
+    <br />
+
+    <img id="gambarpilih" width="400" style="margin-top: 20px;"/>
+
+    <script>
+        function image() {
+            let pilih = document.getElementById("gambar").value;
+            let gambarpilih = document.getElementById("gambarpilih");
+    
+            if (pilih == "suami 1") {
+                gambarpilih.src = "img/suami1.JPG";
+                alert("foto pertama");
+            } else if (pilih == "suami 2") {
+                gambarpilih.src = "img/suami2.JPG";
+                alert("foto kedua");
+            } else if (pilih == "suami 3") {
+                gambarpilih.src = "img/suami3.jpg";
+                alert("foto ketiga");
+            } else if (pilih == "suami 4") {
+                gambarpilih.src = "img/suami4.JPG";
+                alert("foto keempat");
+            } else if (pilih == "suami 5") {
+                gambarpilih.src = "img/suami5.JPG";
+                alert("foto kelima");
+            } else if (pilih == "suami 6") {
+                gambarpilih.src = "img/suami6.JPG";
+                alert("foto keenam");
+            }
+        }
+    </script>
+</body>
+</html>
